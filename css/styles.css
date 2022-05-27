@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    position: relative;
+    display: block;
+    text-align: center;
+    /* font-family: fantasy; */
+    font-family: 'Merriweather', serif;
+}
+
+div.top-container {
+    background-color: #B3E8E5;
+    display: block ;
+    height: 700px;
+    position: relative;
+    padding-top: 100px;
+}
+h1{
+    /* font-family: 'Merriweather', serif; */
+    font-family: 'Sacramento', cursive;
+    color: #45b29a;
+    /* font-size: 90px; */
+    /* font-size: 5.625em; */
+    /* font-size: 562.5%; */
+    /* Font size in em get inherited by parent and child element. */
+    /* All the above are ways of ways of representing the font size below */
+    font-size: 5.625rem;
+    margin-top: 0;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+}
+p.first{
+    color: white;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #45b29a;
+    display: inline-block;
+    padding: 5px;
+    background-color: lavender;
+    border-radius: 20px;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
+
+}
+/* .middle-container{
+
+}
+.bottom-container{
+
+} */
+img{
+    border-radius: 30px;
+}
+.mountain{
+    padding-top: 155px;
+}
+
+/* div{
+    position: relative;
+    display: inline-block; } */
+
+/* 
+    Relative vs absolute positioning vs Fixed 
+    * The relative position properties: left, right, top and bottom are to move an 
+      element relative to its original position.
+    * The absolute positioning properties are to move an element relative to its 
+      parent, so in a way the absolute positioning is a form of relative positioning.
+      The element given this absolute property is treated like it does not exist in the HTML
+      flow, thus, it is like the element is deleted. 
+      The position of the parent element must be set to relative before adding absolute 
+      positioning to the child element.
+    * The Fixed positioning is to make an element fixed to a particular position even as
+      the screen scrolls.
+*/
+.first{
+    font-size: x-large;
+}
+
+.bottom-cloud{
+    position: absolute;
+    bottom: 300px;
+    left: 300px;
+}
+
+.top-cloud{
+    position: absolute;
+    top: 200px;
+    right: 300px;
+}
